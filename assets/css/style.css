@@ -1,0 +1,43 @@
+/*Staring here are the css attributes for the body*/
+body {
+	background-color: #4aaaa5;
+	margin: 0;
+    padding: 0;
+
+}
+
+
+/*These are the header/navbar ccs changes*/
+
+header {
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+
+}
+ul li {
+	
+	float: right;
+	list-style-type: none;
+	display: inline;
+	padding-right: 5px;
+	border-right: 2px solid red;
+}
+
+
+
+
+
+
+/*This is where we define the container dimensions */
+.container {
+	width: 960px;
+	margin: auto;
+}
+
+
+
+/* Image attributes */
+#bio-image {
+	height: 200px;
+	width: 200px;
+}
