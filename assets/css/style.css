@@ -1,43 +1,111 @@
-/*Staring here are the css attributes for the body*/
 body {
-	background-color: #4aaaa5;
-	margin: 0;
-    padding: 0;
-
+	font-family: font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-
-/*These are the header/navbar ccs changes*/
-
+/*The header/logo/navbar css styles start here*/
 header {
+	height: 90px;
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
-
-}
-ul li {
 	
+}
+.logo-box {
+	display: inline-block;
+    padding: 30px; 
+    margin-left: 110px;
+    background-color: #50aba5;
+}
+.myNameText {
+	font-size: 30px;
+	color: #ffffff;
+}
+nav {
 	float: right;
-	list-style-type: none;
-	display: inline;
-	padding-right: 5px;
-	border-right: 2px solid red;
+    margin-top: 35px;
+    margin-right: 30px;
+    font-size: 19px;
+}
+a {
+	text-decoration: none;
+	padding: 10px;
+	color: #b5b5b5;
 }
 
+/*Header styles ends here*/
 
-
-
-
-
-/*This is where we define the container dimensions */
-.container {
+/* Start of the container styles*/
+#container {
 	width: 960px;
-	margin: auto;
+    margin: auto;
+}
+/*End*/
+
+/*This is the start of the section styles*/
+section {
+	margin-top: 40px;
+    width: 650px;
+    float: left;
+    border: 1px solid #cccccc;
+}
+#aboutMeHeading {
+	font-size: 30px;
+    padding: 20px;
+    width: 550px;
+    border-bottom: 2px solid #cccccc;
+    margin-left: 30px;
+    color: #50aba5;
+}
+img {
+	margin: 15px 0px 0px 30px;
+    height: 200px;
+    width: 200px;
 }
 
+#first-Paragraph {
+	float: right;
+    padding: 20px;
+    width: 350px;
+    display: inline-block;
+    line-height: 35px;
+ }
 
+#second-Paragraph {
+	padding: 20px;
+    line-height: 35px;
+}
 
-/* Image attributes */
-#bio-image {
-	height: 200px;
-	width: 200px;
+/* This is the start of the aside portion
+where the social media icons will belong*/
+aside {
+	width: 270px;
+    float: right;
+    margin-top: 40px;
+    border: 1px solid #cccccc;
+    height: auto;
+}
+
+#connectWithMe {
+	border-bottom: 2px solid #cccccc;
+    color: #50aba5;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    width: 210px;
+    margin: auto;
+}
+.iconStyles {
+	height: 50px;
+	width: 50px;
+	margin: 0;
+	padding: 0;
+}
+ul {
+	margin-top: 15px;
+}
+
+li {
+	margin-left: 10px;
+
+	display: inline;
+
 }
