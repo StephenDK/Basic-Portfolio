@@ -12,7 +12,7 @@ header {
 .logo-box {
 	display: inline-block;
     padding: 30px; 
-    margin-left: 110px;
+    margin-left: 235px;
     background-color: #50aba5;
 }
 .myNameText {
@@ -100,12 +100,25 @@ aside {
 	padding: 0;
 }
 ul {
-	margin-top: 15px;
+	margin: 25px 0px;
 }
 
 li {
 	margin-left: 10px;
-
 	display: inline;
+}
 
+footer {
+	background-color: #666666;
+	position:fixed;
+   	left:0px;
+   	bottom:0px;
+   	height:90px;
+   	width:100%;
+   	border-top: 10px solid #cccccc;
+}
+h5 {
+	text-align: center;
+    color: #83a3b2;
+    margin-top: 35px;
 }
