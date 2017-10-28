@@ -7,7 +7,7 @@ header {
 	height: 90px;
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
-	
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 .logo-box {
 	display: inline-block;
@@ -115,7 +115,7 @@ footer {
 	position:fixed;
    	left:0px;
    	bottom:0px;
-   	height:90px;
+   	height:60px;
    	width:100%;
    	border-top: 10px solid #cccccc;
 }

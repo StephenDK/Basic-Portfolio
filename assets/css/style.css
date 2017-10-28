@@ -1,5 +1,5 @@
 body {
-	font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /*The header/logo/navbar css styles start here*/
@@ -7,7 +7,7 @@ header {
 	height: 90px;
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
-	
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 .logo-box {
 	display: inline-block;
