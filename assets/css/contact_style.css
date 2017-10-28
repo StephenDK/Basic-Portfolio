@@ -1,5 +1,6 @@
 body {
 	font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #e4e4e4;
 }
 
 /*The header/logo/navbar css styles start here*/
@@ -46,6 +47,7 @@ section {
     width: 650px;
     float: left;
     border: 1px solid #cccccc;
+    background-color: #ffffff;
 }
 #aboutMeHeading {
 	font-size: 30px;
@@ -84,6 +86,7 @@ aside {
     margin-top: 40px;
     border: 1px solid #cccccc;
     height: auto;
+    background-color: #ffffff;
 }
 
 #connectWithMe {
