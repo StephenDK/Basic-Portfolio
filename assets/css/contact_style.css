@@ -55,25 +55,26 @@ section {
     margin-left: 30px;
     color: #50aba5;
 }
-img {
-	margin: 15px 0px 0px 30px;
-    height: 200px;
-    width: 200px;
+
+form {
+    padding: 15px;
+    margin-left: 15px;
+}
+form p {
+    margin-bottom: 5px;
+}
+form input {
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px;
+    width: 90px;
+    background-color: #50aba5;
+    margin-top: 15px;
+    color: #ffffff;
 }
 
-#first-Paragraph {
-	float: right;
-    padding: 20px;
-    width: 350px;
-    display: inline-block;
-    line-height: 35px;
- }
 
-#second-Paragraph {
-	padding: 0px 20px 20px 20px;
-    line-height: 35px;
-    clear: both;
-}
 
 /* This is the start of the aside portion
 where the social media icons will belong*/
